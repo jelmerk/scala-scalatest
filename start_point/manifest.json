@@ -1,20 +1,22 @@
 
 {
-  "display_name": "Java, JUnit",
+  "display_name": "Scala, scalatest",
 
   "visible_filenames": [
-    "HikerTest.java",
-    "Hiker.java",
+    "HikerSpec.scala",
+    "Hiker.scala",
     "cyber-dojo.sh"
   ],
 
-  "image_name": "cyberdojofoundation/java_junit",
+  "image_name": "cyberdojofoundation/scala_custom",
 
-  "filename_extension": ".java",
+  "filename_extension" : ".scala",
+
+  "tab_size": 2,
 
   "progress_regexs": [
-    "Tests run\\: (\\d)+,(\\s)+Failures\\: (\\d)+",
-    "OK \\((\\d)+ test(s)?\\)"
+    "\\*\\*\\* (\\d+) TEST(S)? FAILED \\*\\*\\*",
+    "All tests passed"
   ],
 
   "runner_choice": "stateless"
